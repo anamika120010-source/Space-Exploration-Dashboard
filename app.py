@@ -37,8 +37,8 @@ with c1:
     )
     st.info(
         f"**{insights['highest_budget_country']}** has the highest average mission budget "
-        f"(${insights['highest_budget_value']:.2f}B), while **{insights['lowest_budget_country']}** "
-        f"has the lowest (${insights['lowest_budget_value']:.2f}B)."
+        f"(\\${insights['highest_budget_value']:.2f}B), while **{insights['lowest_budget_country']}** "
+        f"has the lowest (\\${insights['lowest_budget_value']:.2f}B)."
     )
 with c2:
     st.info(
