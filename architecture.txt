@@ -1,0 +1,12 @@
+space_dashboard/
+├── app.py                          ← entry point / Home page
+├── utils.py                        ← shared data layer (single source of truth)
+├── data/
+│   └── Global_Space_Exploration_Dataset.csv   ← raw data, read-only
+├── pages/                          ← Streamlit auto-detects this folder for nav
+│   ├── 1_Explorer.py
+│   ├── 2_Country_Comparison.py
+│   ├── 3_Trends_Over_Time.py
+│   └── 4_Collaboration_Network.py
+├── requirements.txt
+└── README.md
